@@ -14,7 +14,7 @@ jobs:
   swiftpm:
     runs-on: macos-12
     steps:
-      - uses: maxim-lobanov/setup-xcode@v1.5.1
+      - uses: maxim-lobanov/setup-xcode@v1.6.0
         with:
           xcode-version: ^14.1
       - uses: actions/checkout@v3
@@ -44,7 +44,7 @@ jobs:
             destination: 'platform=macosx'
             skip-testing: 'OS X Tests/DDFileLoggerPerformanceTests'
     steps:
-      - uses: maxim-lobanov/setup-xcode@v1.5.1
+      - uses: maxim-lobanov/setup-xcode@v1.6.0
         with:
           xcode-version: ^14.1
       - uses: actions/checkout@v3
